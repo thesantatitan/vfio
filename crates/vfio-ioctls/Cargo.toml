@@ -13,7 +13,7 @@ keywords = ["vfio"]
 features = ["kvm"]
 
 [features]
-default = ["kvm"]
+default = ["kvm", "mshv"]
 kvm = ["kvm-ioctls", "kvm-bindings"]
 mshv = ["mshv-ioctls", "mshv-bindings"]
 
